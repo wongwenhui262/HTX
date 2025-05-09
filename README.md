@@ -1,16 +1,15 @@
-## 🔍 Model Prediction Task II
+## Model Prediction Task II
 
-**Explain the factors and considerations in building an in-house predictive model for users. You may use this toy example to support your answer, and please state any assumptions made.**
 
 ---
 
-### 🎯 Purpose
+### Purpose
 
 The goal of building an in-house predictive model is to enable tailored, cost-effective, and efficient decision-making. For example, predicting HDB resale prices helps inform public policy, housing supply planning, or citizen advisory services.
 
 ---
 
-### ✅ Key Considerations
+###  Key Considerations
 
 #### 1. **Data Availability & Quality**
 - **Structured Data**: We assume access to structured CSV files with features like `flat_type`, `town`, `lease_commence_date`, etc.
@@ -58,14 +57,14 @@ The goal of building an in-house predictive model is to enable tailored, cost-ef
 
 ---
 
-### 🔄 Assumptions
+###  Assumptions
 - Access to full HDB resale transaction data from a reliable source (e.g., data.gov.sg).
 - Model is used internally by government analysts, planners, or digital services.
 - Model deployment is CPU-based, with minimal infrastructure needs.
 
 ---
 
-### 📈 Application: HDB Example
+###  Application: HDB Example
 
 Using the HDB resale dataset:
 - Trained model predicts `resale_price` using engineered features.
